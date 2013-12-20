@@ -87,4 +87,10 @@ map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 "    execfile(activate_this, dict(__file__=activate_this))
 "EOF
 
-color xoria256
+" IMPORTANT: Uncomment one of the following lines to force
+" using 256 colors (or 88 colors) if your terminal supports it,
+" but does not automatically use 256 colors by default.
+"set t_Co=256
+"set t_Co=88
+let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+colorscheme xoria256
