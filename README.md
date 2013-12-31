@@ -1,14 +1,12 @@
 vim-config
 ==========
 
-my vim configuration, which I use to code in python mostly but really for every programming language
-
-there are many plugins that I link to and use - and probably credits for where I got certain files from. It'll be added here in due time.
+My vim configuration, which I use to code in python mostly - later with java and c++ support probably. There are many plugins that I link to and use, fetched by submodules to keep a relatively constant update level and prevent breaking everything.
 
 
-this is the content of my .vim + a copy of my .vimrc ; to install simply pull into a ~/.vim and copy vimrc to ~/.vimrc
+this is the content of my .vim folder, linked to active github projects mirroring the current vim plugins in use.
 
-based on  http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
+Originaly based on  http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
 
 #### To install :
 
@@ -18,4 +16,4 @@ $ cd vim-config
 $ git submodule update --init --recursive
 ~~~
 
-arrange the synced folder to be your .vim and you're done.
+arrange the synced folder to be your .vim and you're done - installing ruby may be required for a few plugins (more doc to come)
