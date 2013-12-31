@@ -9,3 +9,12 @@ there are many plugins that I link to and use - and probably credits for where I
 this is the content of my .vim + a copy of my .vimrc ; to install simply pull into a ~/.vim and copy vimrc to ~/.vimrc
 
 based on  http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
+
+#### To install :
+
+~~~
+$ git pull
+$ git submodule update --init --recursive
+~~~
+
+arrange the synced folder to be your .vim and you're done.
