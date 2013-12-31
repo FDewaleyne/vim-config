@@ -13,7 +13,8 @@ based on  http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
 #### To install :
 
 ~~~
-$ git pull
+$ git pull https://github.com/FDewaleyne/vim-config.git
+$ cd vim-config
 $ git submodule update --init --recursive
 ~~~
 
