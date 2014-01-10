@@ -30,6 +30,10 @@ let mapleader = "<"
 set foldmethod=indent
 set foldlevel=99
 
+""" comment and uncomment
+"vnoremap # :s#^#\##<cr>
+"vnoremap -# :s#^\###<cr>
+
 "" moving around windows  without ctrl + w first
 map <c-j> <c-w>j
 map <c-k> <c-w>k
