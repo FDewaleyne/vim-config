@@ -24,7 +24,7 @@ set ignorecase			            " searches are case insensitive...
 set smartcase			            " ... unless they contain at least one capital letter
 
 "" french keyboard settings
-let mapleader = "<"
+let mapleader = "ù"
 
 "" Code folding
 set foldmethod=indent
