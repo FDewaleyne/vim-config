@@ -4,6 +4,9 @@ call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+"" expand % matching
+runtime macros/matchit.vim
+
 "" normal options
 set nocompatible		            " chose no compatibility with legacy vi
 syntax enable                       " syntax highlighting on
