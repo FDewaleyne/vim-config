@@ -101,3 +101,20 @@ map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 "set t_Co=88
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme xoria256
+
+" Make Vim recognize XTerm escape sequences for Page and Arrow
+" " keys combined with modifiers such as Shift, Control, and Alt.
+" " See http://www.reddit.com/r/vim/comments/1a29vk/_/c8tze8p
+if &term =~ '^screen'
+  " Page keys http://sourceforge.net/p/tmux/tmux-code/ci/master/tree/FAQ
+  execute "set t_kP=\e[5;*~"
+  execute "set t_kN=\e[6;*~"
+  " Arrow keys http://unix.stackexchange.com/a/34723
+  execute "set <xUp>=\e[1;*A"
+  execute "set <xDown>=\e[1;*B"
+  execute "set <xRight>=\e[1;*C"
+  execute "set <xLeft>=\e[1;*D"
+endif
+" aboverequires a .tmux.conf
+" setw -g xterm-keys on
+" set -g default-terminal 'screen-256color' 
