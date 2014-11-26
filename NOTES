@@ -1,0 +1,7 @@
+### NOTES FOR THE SETUP ###
+
+ropevim requires to setup a python module using
+
+	python setup.py install
+
+in the bundle/vimrope folder.
