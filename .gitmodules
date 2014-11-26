@@ -12,7 +12,7 @@
 	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
-	url = https://github.com/sontek/minibufexpl.vim.git
+	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
@@ -45,7 +45,7 @@
 	url = https://github.com/vim-scripts/The-NERD-tree.git
 [submodule "bundle/ropevim"]
 	path = bundle/ropevim
-	url = https://github.com/sontek/rope-vim.git
+	url = https://github.com/python-rope/ropevim.git
 [submodule "bundle/csapprox"]
 	path = bundle/csapprox
 	url = https://github.com/vim-scripts/CSApprox.git
