@@ -17,3 +17,10 @@ $ git submodule update --init --recursive
 ~~~
 
 arrange the synced folder to be your .vim and you're done - installing ruby may be required for a few plugins (more doc to come)
+
+#### Additional software to install (Centos)
+
+~~~
+$ pip install rope
+$ pip install ropevim
+~~~
